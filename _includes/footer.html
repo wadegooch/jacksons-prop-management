@@ -13,7 +13,8 @@
         {% endfor %}
       {% endif %}
   
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="{{ site.facebook_url }}"><i class="fab fa-facebook-square fa-3x"></i></a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="{{ site.instagram_url }}"><i class="fab fa-instagram-square fa-3x"></i></a></li>
     </ul>
   </div>
   
