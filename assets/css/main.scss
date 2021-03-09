@@ -11,6 +11,11 @@
     font-size: 1.5em;
 }
 
+.carousel-container {
+    height: auto;
+    max-height: 730px;
+}
+
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
