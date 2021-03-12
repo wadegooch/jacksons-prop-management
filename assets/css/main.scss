@@ -107,7 +107,8 @@
 
 @media (hover: hover) and (pointer: coarse) {
     a:hover { 
-        color: none; 
+        color: none;
+        background-color: none;
     }
 }
 
