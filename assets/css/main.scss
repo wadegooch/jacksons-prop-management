@@ -110,6 +110,11 @@
         color: none;
         background-color: none;
     }
+
+    .prev-slide:hover, .next-slide:hover {
+        color: none;
+        background-color: none;
+    }
 }
 
 @-webkit-keyframes fade {
