@@ -6,7 +6,7 @@ permalink: /contact/
 
 ## Contact Us
 
-#### For questions or to get in contact with us about scheduling services, you can reach us at (937) 631-6548 or fill out the form below.
+#### For questions or to get in contact with us about scheduling services, you can reach us at {{site.phone_number}} or fill out the form below.
 
 <section>
 <form class="contact-form" method="POST" action="https://formspree.io/f/xjvploge">

@@ -27,6 +27,7 @@ url: "https://wadegooch.github.io" # the base hostname & protocol for your site,
 github: [metadata]
 facebook_url: https://www.facebook.com/Jacksonsonspropertymanagement
 instagram_url: https://www.instagram.com/jacksonsonspropertymanagement/
+phone_number: (937) 631-6548
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
@@ -43,14 +44,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
