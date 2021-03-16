@@ -20,8 +20,8 @@ title: Jackson & Son's Property Management
 name: Jackson & Son's Property Management LLC
 logo: "/assets/images/JS_Logo_Green_mini_bevel.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  Jackson & Son's Property Management - Mowing | Landscape - Landscaping Design | Excavation |
-  Irrigation | Aeration | Hardscape | Fertilization
+  Jackson & Son's Property Management provides property management services for mowing, landscaping & landscape design, excavation
+  irrigation, and hardscaping in Clark, Champaign, and Montgomery counties in Ohio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jacksonspropmanagement.com" # the base hostname & protocol for your site, e.g. http://example.com
 github: [metadata]
