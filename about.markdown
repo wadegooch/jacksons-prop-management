@@ -14,4 +14,4 @@ Growing has been the name of the game. I am always looking for new accounts, bot
 
 #### Scheduling Services with us
 
-Jackson & Son's Property Management can be reached at (937) 631-6548, or head over to the [Contact](./contact.markdown) page to submit an inquiry for service.
+Jackson & Son's Property Management can be reached at {{site.phone_number}}, or head over to the [Contact](./contact.markdown) page to submit an inquiry for service.
