@@ -2,19 +2,27 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+.greedy-nav {
+    align-items: baseline !important;
+}
+
+.site-logo {
+    margin-top: 8px !important;
+}
+
 .site-logo img {
     height: 100%;
 }
 
-@media (max-width: 573px) {
+@media (max-width: 590px) {
     .site-logo img {
         max-height: 5rem !important;
     }
 }
 
-@media (max-width: 405px) {
+@media (max-width: 422px) {
     .site-logo img {
-        max-height: 18rem !important;
+        max-height: 8rem !important;
     }
 }
 
@@ -78,7 +86,7 @@
 * {box-sizing:border-box}
 
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 55vh;
     position: relative;
     margin: auto;
 }

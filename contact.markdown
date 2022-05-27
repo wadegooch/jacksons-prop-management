@@ -28,6 +28,7 @@ permalink: /contact/
             <option value="landscaping">Landscaping</option>
             <option value="mowing">Mowing</option>
             <option value="excavation">Excavation</option>
+            <option value="irrigation">Irrigation</option>
         </select>
     </div>
     <div class="field budget">
