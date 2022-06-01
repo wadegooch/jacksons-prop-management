@@ -2,8 +2,28 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+.greedy-nav {
+    align-items: baseline !important;
+}
+
+.site-logo {
+    margin-top: 8px !important;
+}
+
 .site-logo img {
     height: 100%;
+}
+
+@media (max-width: 590px) {
+    .site-logo img {
+        max-height: 5rem !important;
+    }
+}
+
+@media (max-width: 422px) {
+    .site-logo img {
+        max-height: 8rem !important;
+    }
 }
 
 .contact-form {
@@ -29,6 +49,29 @@
     box-shadow: inset 0 1px 3px rgba(52, 52, 52, 0.06), 0 0 1px rgba(52, 52, 52, 0.7);
 }
 
+.contact-dropdown {
+    border-color: #343434;
+    outline: 0;
+    box-shadow: inset 0 1px 3px rgba(52, 52, 52, 0.06), 0 0 5px rgba(52, 52, 52, 0.7);
+    background-color: #f3f3f3;
+}
+
+.contact-dropdown:focus {
+    border-color: #343434;
+    outline: auto;
+    box-shadow: inset 0 1px 3px rgba(52, 52, 52, 0.06), 0 0 1px rgba(52, 52, 52, 0.7);
+    background-color: #f3f3f3;
+}
+
+.budget span {
+    position: absolute;
+    margin: 4px 0px 0px 5px;
+}
+
+.budget input {
+    padding-left: 20px;
+}
+
 .contact-submit {
     border-color: #343434;
     outline: auto;
@@ -43,7 +86,7 @@
 * {box-sizing:border-box}
 
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 55vh;
     position: relative;
     margin: auto;
 }
