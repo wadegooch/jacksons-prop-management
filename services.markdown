@@ -16,6 +16,7 @@ permalink: /services/
 * Mulching
 * Dirt & Soil scaping
 * Minor tree work
+* River Rock
 
 #### Excavation
 
