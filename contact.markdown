@@ -34,7 +34,7 @@ permalink: /contact/
     <div class="field budget">
         <label for="budget">Approximate Budget</label>
         <span>$</span>
-        <input class="contact-input" type="number" name="budget" id="budget" step="any" min="0" />
+        <input class="contact-input" type="number" name="budget" id="budget" step="any" min="0" max="25000" />
     </div>
     <div class="field">
         <label for="message">Message</label>
