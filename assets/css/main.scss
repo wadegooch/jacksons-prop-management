@@ -18,11 +18,17 @@
     .site-logo img {
         max-height: 5rem !important;
     }
+    .hidden-links {
+        top: 75% !important;
+    }
 }
 
 @media (max-width: 422px) {
     .site-logo img {
-        max-height: 8rem !important;
+        max-height: 7rem !important;
+    }
+    .hidden-links {
+        margin-top: 10px !important;
     }
 }
 
